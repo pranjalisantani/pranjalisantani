@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 200" width="100%" height="auto">
+  <defs>
+    <linearGradient id="worldCardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080c14" />
+      <stop offset="100%" stop-color="#0d1424" />
+    </linearGradient>
+    <linearGradient id="worldBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b" />
+      <stop offset="50%" stop-color="#6366f1" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#1e293b" />
+    </linearGradient>
+  </defs>
+
+  <!-- Container -->
+  <rect x="2" y="2" width="836" height="196" rx="12" fill="url(#worldCardBg)" stroke="url(#worldBorder)" stroke-width="1.2" />
+
+  <!-- Section Header -->
+  <g transform="translate(28, 28)">
+    <text x="0" y="0" fill="#64748b" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'SF Mono', Consolas, monospace" font-size="11" font-weight="600" letter-spacing="1.5">MAP // MY ENGINEERING WORLD</text>
+    <text x="0" y="20" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="400">Interconnected exploration domains — learning by implementing from first principles.</text>
+  </g>
+
+  <!-- Domain Nodes Grid (3 cols x 2 rows) -->
+  <g transform="translate(28, 76)">
+    <!-- Col 1, Row 1: Software Engineering -->
+    <rect x="0" y="0" width="245" height="44" rx="8" fill="#0f172a" stroke="#3b82f6" stroke-width="1" stroke-opacity="0.5" />
+    <circle cx="18" cy="22" r="4" fill="#3b82f6" />
+    <text x="32" y="19" fill="#f1f5f9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'SF Mono', Consolas, monospace" font-size="11" font-weight="700">SOFTWARE ENGINEERING</text>
+    <text x="32" y="34" fill="#64748b" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10">Web apps, modular code, build cycles</text>
+
+    <!-- Col 2, Row 1: AI / ML -->
+    <rect x="265" y="0" width="245" height="44" rx="8" fill="#0f172a" stroke="#6366f1" stroke-width="1" stroke-opacity="0.5" />
+    <circle cx="283" cy="22" r="4" fill="#6366f1" />
+    <text x="297" y="19" fill="#f1f5f9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'SF Mono', Consolas, monospace" font-size="11" font-weight="700">AI / ML</text>
+    <text x="297" y="34" fill="#64748b" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10">Applied models, smart pipelines, tools</text>
+
+    <!-- Col 3, Row 1: DSA -->
+    <rect x="530" y="0" width="245" height="44" rx="8" fill="#0f172a" stroke="#818cf8" stroke-width="1" stroke-opacity="0.5" />
+    <circle cx="548" cy="22" r="4" fill="#818cf8" />
+    <text x="562" y="19" fill="#f1f5f9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'SF Mono', Consolas, monospace" font-size="11" font-weight="700">DSA</text>
+    <text x="562" y="34" fill="#64748b" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10">Problem solving, algorithms, structure</text>
+
+    <!-- Col 1, Row 2: Systems -->
+    <rect x="0" y="56" width="245" height="44" rx="8" fill="#0f172a" stroke="#0ea5e9" stroke-width="1" stroke-opacity="0.5" />
+    <circle cx="18" cy="78" r="4" fill="#0ea5e9" />
+    <text x="32" y="75" fill="#f1f5f9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'SF Mono', Consolas, monospace" font-size="11" font-weight="700">SYSTEMS</text>
+    <text x="32" y="90" fill="#64748b" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10">Foundations, architecture, execution</text>
+
+    <!-- Col 2, Row 2: Creative Technology -->
+    <rect x="265" y="56" width="245" height="44" rx="8" fill="#0f172a" stroke="#a855f7" stroke-width="1" stroke-opacity="0.5" />
+    <circle cx="283" cy="78" r="4" fill="#a855f7" />
+    <text x="297" y="75" fill="#f1f5f9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'SF Mono', Consolas, monospace" font-size="11" font-weight="700">CREATIVE TECHNOLOGY</text>
+    <text x="297" y="90" fill="#64748b" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10">Interactive UIs, 3D web, graphics</text>
+
+    <!-- Col 3, Row 2: Experiments -->
+    <rect x="530" y="56" width="245" height="44" rx="8" fill="#0f172a" stroke="#10b981" stroke-width="1" stroke-opacity="0.5" />
+    <circle cx="548" cy="78" r="4" fill="#10b981" />
+    <text x="562" y="75" fill="#f1f5f9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'SF Mono', Consolas, monospace" font-size="11" font-weight="700">EXPERIMENTS</text>
+    <text x="562" y="90" fill="#64748b" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10">Rapid prototypes, testing assumptions</text>
+  </g>
+</svg>

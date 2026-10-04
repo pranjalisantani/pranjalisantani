@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 180" width="100%" height="auto">
+  <defs>
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080c14" />
+      <stop offset="100%" stop-color="#0d1424" />
+    </linearGradient>
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b" />
+      <stop offset="50%" stop-color="#3b82f6" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#1e293b" />
+    </linearGradient>
+    <filter id="softGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <!-- Container -->
+  <rect x="2" y="2" width="836" height="176" rx="12" fill="url(#cardBg)" stroke="url(#borderGrad)" stroke-width="1.2" />
+
+  <!-- Section Header Tag -->
+  <g transform="translate(28, 26)">
+    <text x="0" y="0" fill="#64748b" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'SF Mono', Consolas, monospace" font-size="11" font-weight="600" letter-spacing="1.5">MINDSET // HOW I THINK</text>
+  </g>
+
+  <!-- Flow Row 1 -->
+  <g transform="translate(28, 52)">
+    <!-- QUESTION -->
+    <rect x="0" y="0" width="115" height="34" rx="6" fill="#0f172a" stroke="#334155" stroke-width="1" />
+    <text x="57" y="21" fill="#e2e8f0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'SF Mono', Consolas, monospace" font-size="11" font-weight="600" text-anchor="middle" letter-spacing="0.8">QUESTION</text>
+    <text x="133" y="22" fill="#60a5fa" font-family="-apple-system, BlinkMacSystemFont, 'SF Mono', Consolas, monospace" font-size="13">→</text>
+
+    <!-- UNDERSTAND -->
+    <rect x="156" y="0" width="130" height="34" rx="6" fill="#0f172a" stroke="#334155" stroke-width="1" />
+    <text x="221" y="21" fill="#e2e8f0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'SF Mono', Consolas, monospace" font-size="11" font-weight="600" text-anchor="middle" letter-spacing="0.8">UNDERSTAND</text>
+    <text x="304" y="22" fill="#60a5fa" font-family="-apple-system, BlinkMacSystemFont, 'SF Mono', Consolas, monospace" font-size="13">→</text>
+
+    <!-- RESEARCH -->
+    <rect x="326" y="0" width="120" height="34" rx="6" fill="#0f172a" stroke="#334155" stroke-width="1" />
+    <text x="386" y="21" fill="#e2e8f0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'SF Mono', Consolas, monospace" font-size="11" font-weight="600" text-anchor="middle" letter-spacing="0.8">RESEARCH</text>
+    <text x="464" y="22" fill="#60a5fa" font-family="-apple-system, BlinkMacSystemFont, 'SF Mono', Consolas, monospace" font-size="13">→</text>
+
+    <!-- BUILD -->
+    <rect x="486" y="0" width="100" height="34" rx="6" fill="#0f172a" stroke="#3b82f6" stroke-width="1" />
+    <text x="536" y="21" fill="#93c5fd" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'SF Mono', Consolas, monospace" font-size="11" font-weight="700" text-anchor="middle" letter-spacing="0.8">BUILD</text>
+
+    <!-- Turn indicator -->
+    <path d="M 604 17 L 626 17 C 636 17 642 23 642 33 L 642 45 C 642 55 636 61 626 61 L 604 61" fill="none" stroke="#38bdf8" stroke-width="1.2" stroke-dasharray="3 3" />
+  </g>
+
+  <!-- Flow Row 2 -->
+  <g transform="translate(28, 114)">
+    <!-- BREAK -->
+    <rect x="0" y="0" width="95" height="34" rx="6" fill="#18181b" stroke="#f43f5e" stroke-width="1" stroke-opacity="0.6" />
+    <text x="47" y="21" fill="#fda4af" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'SF Mono', Consolas, monospace" font-size="11" font-weight="600" text-anchor="middle" letter-spacing="0.8">BREAK</text>
+    <text x="113" y="22" fill="#f43f5e" font-family="-apple-system, BlinkMacSystemFont, 'SF Mono', Consolas, monospace" font-size="13">→</text>
+
+    <!-- DEBUG -->
+    <rect x="136" y="0" width="95" height="34" rx="6" fill="#0f172a" stroke="#f59e0b" stroke-width="1" stroke-opacity="0.6" />
+    <text x="183" y="21" fill="#fde68a" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'SF Mono', Consolas, monospace" font-size="11" font-weight="600" text-anchor="middle" letter-spacing="0.8">DEBUG</text>
+    <text x="249" y="22" fill="#f59e0b" font-family="-apple-system, BlinkMacSystemFont, 'SF Mono', Consolas, monospace" font-size="13">→</text>
+
+    <!-- UNDERSTAND DEEPLY -->
+    <rect x="271" y="0" width="180" height="34" rx="6" fill="#0f172a" stroke="#818cf8" stroke-width="1" />
+    <text x="361" y="21" fill="#c7d2fe" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'SF Mono', Consolas, monospace" font-size="11" font-weight="600" text-anchor="middle" letter-spacing="0.8">UNDERSTAND DEEPLY</text>
+    <text x="469" y="22" fill="#818cf8" font-family="-apple-system, BlinkMacSystemFont, 'SF Mono', Consolas, monospace" font-size="13">→</text>
+
+    <!-- BUILD BETTER -->
+    <rect x="491" y="0" width="145" height="34" rx="6" fill="#0f172a" stroke="#10b981" stroke-width="1.2" />
+    <text x="563" y="21" fill="#6ee7b7" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'SF Mono', Consolas, monospace" font-size="11" font-weight="700" text-anchor="middle" letter-spacing="0.8">BUILD BETTER ✦</text>
+  </g>
+</svg>
