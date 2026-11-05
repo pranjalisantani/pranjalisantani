@@ -1,65 +1,21 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 240" width="100%" height="auto">
-  <defs>
-    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#080c14" />
-      <stop offset="50%" stop-color="#0d1424" />
-      <stop offset="100%" stop-color="#070a10" />
-    </linearGradient>
-    <linearGradient id="borderGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#3b82f6" stop-opacity="0.6" />
-      <stop offset="50%" stop-color="#6366f1" stop-opacity="0.3" />
-      <stop offset="100%" stop-color="#1e293b" stop-opacity="0.8" />
-    </linearGradient>
-    <linearGradient id="textGradient" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#ffffff" />
-      <stop offset="100%" stop-color="#c7d2fe" />
-    </linearGradient>
-    <radialGradient id="glow" cx="20%" cy="30%" r="60%">
-      <stop offset="0%" stop-color="#3b82f6" stop-opacity="0.18" />
-      <stop offset="100%" stop-color="#3b82f6" stop-opacity="0" />
-    </radialGradient>
-    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
-      <path d="M 24 0 L 0 0 0 24" fill="none" stroke="#1e293b" stroke-width="0.5" stroke-opacity="0.35" />
-    </pattern>
-  </defs>
-
-  <!-- Container -->
-  <rect x="2" y="2" width="836" height="236" rx="14" fill="url(#bgGradient)" stroke="url(#borderGradient)" stroke-width="1.5" />
-  <rect x="2" y="2" width="836" height="236" rx="14" fill="url(#grid)" />
-  <rect x="2" y="2" width="836" height="236" rx="14" fill="url(#glow)" />
-
-  <g transform="translate(36, 32)">
-    <!-- Terminal Header / Prompt -->
-    <circle cx="0" cy="4" r="5" fill="#ef4444" fill-opacity="0.8" />
-    <circle cx="16" cy="4" r="5" fill="#f59e0b" fill-opacity="0.8" />
-    <circle cx="32" cy="4" r="5" fill="#10b981" fill-opacity="0.8" />
-    <text x="52" y="8" fill="#64748b" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'SF Mono', Consolas, monospace" font-size="12" font-weight="500" letter-spacing="0.5">pranjali@workbench: ~/engineering-world</text>
-
-    <!-- Main Identity -->
-    <text x="0" y="58" fill="url(#textGradient)" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="800" letter-spacing="3">PRANJALI SANTANI</text>
-    <text x="1" y="88" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="16" font-weight="400" letter-spacing="0.8">Building my engineering world.</text>
-
-    <!-- Track Pills -->
-    <g transform="translate(0, 110)">
-      <!-- Pill 1: CSE -->
-      <rect x="0" y="0" width="60" height="26" rx="6" fill="#0f172a" stroke="#3b82f6" stroke-width="1" stroke-opacity="0.5" />
-      <text x="30" y="17" fill="#93c5fd" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'SF Mono', Consolas, monospace" font-size="11" font-weight="600" text-anchor="middle" letter-spacing="1">CSE</text>
-
-      <!-- Pill 2: SOFTWARE ENGINEERING -->
-      <rect x="70" y="0" width="195" height="26" rx="6" fill="#0f172a" stroke="#6366f1" stroke-width="1" stroke-opacity="0.5" />
-      <text x="167" y="17" fill="#c7d2fe" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'SF Mono', Consolas, monospace" font-size="11" font-weight="600" text-anchor="middle" letter-spacing="1">SOFTWARE ENGINEERING</text>
-
-      <!-- Pill 3: AI / ML -->
-      <rect x="275" y="0" width="80" height="26" rx="6" fill="#0f172a" stroke="#818cf8" stroke-width="1" stroke-opacity="0.5" />
-      <text x="315" y="17" fill="#e0e7ff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'SF Mono', Consolas, monospace" font-size="11" font-weight="600" text-anchor="middle" letter-spacing="1">AI / ML</text>
-    </g>
-
-    <!-- Core Journey Divider Line & Loop -->
-    <line x1="0" y1="156" x2="768" y2="156" stroke="#1e293b" stroke-width="1" stroke-dasharray="4 4" />
-    <g transform="translate(0, 180)">
-      <text x="0" y="0" fill="#60a5fa" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'SF Mono', Consolas, monospace" font-size="12" font-weight="600" letter-spacing="2.5">
-        LEARN  <tspan fill="#3b82f6">>→</tspan>  BUILD  <tspan fill="#3b82f6">>→</tspan>  BREAK  <tspan fill="#3b82f6">>→</tspan>  UNDERSTAND  <tspan fill="#3b82f6">>→</tspan>  SHIP
-      </text>
-    </g>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 340" role="img" aria-labelledby="title desc">
+<title id="title">Pranjali Santani — Engineering in motion</title>
+<desc id="desc">A vivid futuristic engineering banner with colorful signal blocks, circuitry, and a bold creator identity.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#080A12"/><stop offset=".55" stop-color="#10152A"/><stop offset="1" stop-color="#080A12"/></linearGradient>
+  <linearGradient id="name" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#FFFFFF"/><stop offset=".52" stop-color="#B9C8FF"/><stop offset="1" stop-color="#F0B7FF"/></linearGradient>
+  <linearGradient id="beam" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#42E8FF"/><stop offset=".5" stop-color="#9A6BFF"/><stop offset="1" stop-color="#FF5DA2"/></linearGradient>
+  <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#29304A" stroke-width="1" opacity=".55"/></pattern>
+  <filter id="glow"><feGaussianBlur stdDeviation="9"/></filter>
+</defs>
+<rect width="1000" height="340" rx="24" fill="url(#bg)"/><rect width="1000" height="340" rx="24" fill="url(#grid)" opacity=".65"/>
+<circle cx="850" cy="80" r="120" fill="#7C3AED" opacity=".22" filter="url(#glow)"/><circle cx="730" cy="270" r="100" fill="#06B6D4" opacity=".16" filter="url(#glow)"/>
+<path d="M0 270H210L260 220H390M650 0V55L700 105H1000M800 340V280L850 230H1000" fill="none" stroke="url(#beam)" stroke-width="2" opacity=".7"/>
+<g opacity=".95"><rect x="770" y="42" width="54" height="54" rx="10" fill="#6D5BFF"/><rect x="834" y="42" width="24" height="54" rx="6" fill="#FF5DA2"/><rect x="868" y="42" width="90" height="24" rx="6" fill="#42E8FF"/><rect x="868" y="72" width="90" height="24" rx="6" fill="#A3FF6F"/><rect x="760" y="116" width="198" height="12" rx="6" fill="#FFB84D" opacity=".9"/><rect x="760" y="138" width="132" height="12" rx="6" fill="#6D5BFF" opacity=".9"/></g>
+<g transform="translate(54 42)"><rect width="186" height="30" rx="8" fill="#171D32" stroke="#394362"/><circle cx="16" cy="15" r="4" fill="#FF5D75"/><circle cx="30" cy="15" r="4" fill="#FFCA5C"/><circle cx="44" cy="15" r="4" fill="#6DFFB2"/><text x="60" y="19" fill="#9AA8C9" font-family="monospace" font-size="12">ENGINEERING / 001</text></g>
+<text x="54" y="143" fill="url(#name)" font-family="Arial, Helvetica, sans-serif" font-size="53" font-weight="800" letter-spacing="1.5">PRANJALI SANTANI</text>
+<text x="57" y="184" fill="#D6DDF5" font-family="Arial, Helvetica, sans-serif" font-size="20" letter-spacing=".5">I turn curiosity into systems, experiments, and things that work.</text>
+<g transform="translate(56 220)" font-family="monospace" font-size="13" font-weight="700"><rect width="126" height="34" rx="8" fill="#102A38" stroke="#42E8FF"/><text x="63" y="22" text-anchor="middle" fill="#7DEFFF">SOFTWARE</text><rect x="138" width="94" height="34" rx="8" fill="#241A3E" stroke="#A78BFA"/><text x="185" y="22" text-anchor="middle" fill="#C9B8FF">SYSTEMS</text><rect x="244" width="76" height="34" rx="8" fill="#351A2C" stroke="#FF5DA2"/><text x="282" y="22" text-anchor="middle" fill="#FF9AC5">AI/ML</text><rect x="332" width="112" height="34" rx="8" fill="#26301A" stroke="#A3FF6F"/><text x="388" y="22" text-anchor="middle" fill="#C9FF9E">CREATIVE TECH</text></g>
+<text x="57" y="300" fill="#8D9AB9" font-family="monospace" font-size="13" letter-spacing="2">LEARN  →  BUILD  →  BREAK  →  UNDERSTAND  →  SHIP</text>
+<g transform="translate(760 220)" fill="none" stroke="url(#beam)" stroke-width="2"><path d="M0 0H90V34H150"/><circle cx="0" cy="0" r="5" fill="#42E8FF"/><circle cx="90" cy="34" r="5" fill="#A78BFA"/><circle cx="150" cy="34" r="5" fill="#FF5DA2"/></g>
 </svg>
